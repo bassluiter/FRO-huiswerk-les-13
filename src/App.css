@@ -1,0 +1,98 @@
+/*reset*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*typogrofie*/
+h1 {
+    text-align: center;
+    width: 100vw;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+
+/*global*/
+.first-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.map-img {
+    width: 100vw;
+    max-width: 1200px;
+}
+
+.button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form input {
+    height: 32px;
+    margin-bottom: 20px;
+    border: solid 1px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-left: 10px;
+}
+
+/*colors of the p class*/
+.europe {
+    color: #FFD435;
+}
+
+.africa {
+    color: #5576C1;
+}
+
+.americas {
+    color: #4C824B
+}
+
+.asia, .error-msg{
+    color: #D14E5B;
+}
+
+.oceania {
+    color: #A553BA;
+}
+
+.default {
+    color: grey;
+}
+
+.error-msg-wrapper {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gif-wrapper {
+    width: 25px;
+    height: 25px;
+}
+.gif {
+    width: 100%;
+    height: 100%;
+    color: yellow;
+}
