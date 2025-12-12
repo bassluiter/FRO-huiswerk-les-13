@@ -16,7 +16,3 @@ function setRegionColor(region) {
 }
 
 export default setRegionColor
-
-
-
-
